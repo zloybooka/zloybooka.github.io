@@ -17,7 +17,7 @@ body {
 }
 
 .img {
-    width: 150px;
+    width: 130px;
 }
 
 .item {
@@ -39,6 +39,10 @@ body {
 
 .btn:hover {
     background: lightgreen;
+}
+
+.usercard {
+    text-align:center;
 }
 
 /*
