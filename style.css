@@ -13,11 +13,11 @@ body {
 .inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: 250px 250px 250px;
 }
 
 .img {
-    width: 130px;
+    width: 150px;
 }
 
 .item {
@@ -42,9 +42,8 @@ body {
 }
 
 .usercard {
-    text-align:center;
+    text-align: center;
 }
-
 /*
 var(--tg-theme-bg-color)
 var(--tg-theme-text-color)
