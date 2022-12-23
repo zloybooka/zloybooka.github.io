@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
+}
+
+.cardcontainer {
+    max-width: 500px;
+}
+
+.cardinner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-rows: 200px 200px 200px; */
+}
+
+.carditem {
+    text-align: center;
+}
+
+.form {
+    margin-left: 50px;
+}
+
+.cardimg {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 200px;
+}
+
+.cardtext {
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.card-radio-btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+}
+
+.card-radio-btn {
+    margin-left: 50px;
+}
+
+.custom-radio {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #ffffff;
+    border: 2px solid #7e9bbd;
+    border-radius: 50%;
+    vertical-align: text-top;
+    margin-right: 5 px;
+ 
+}
+
+.custom-radio::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #1647ed;
+    border-radius: 50%;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 0.2s ease-in;
+    /* display: none; */
+}
+
+.radio-btn:checked + .custom-radio::before {
+    /* display: block; */
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.radio-btn {
+    width: 0;
+    height: 0;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}

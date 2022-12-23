@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cardstyle.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Order</title>
+</head>
+<body>
+    <button class="btn-back" onclick="window.location.href = 'index.html';">К главной</button>
+    <div class="cardcontainer">
+        <div class="cardinner">
+            <div class="carditem">
+                <img src="/SISPOP/correctimg/iPhone 14-pro.png" alt="Iphone 14 Pro" class="cardimg">
+                <p class="cardtext">Iphone 14 Pro</p>
+                <p class="cardtext">Выберите желаемый объем памяти:</p>
+
+                <div class="card-radio-btn">
+                    
+                    <label>
+                        <input type="radio" name="capacity" value="64gb" class="radio-btn">
+                        <span class="custom-radio"></span>
+                        64 GB
+                    </label>
+                    
+                    <label>
+                        <input type="radio" name="capacity" value="128gb" class="radio-btn">
+                        <span class="custom-radio"></span>
+                        128 GB
+                    </label>
+
+                    <label>
+                        <input type="radio" name="capacity" value="256gb" class="radio-btn">
+                        <span class="custom-radio"></span>
+                        256 GB
+                    </label>
+
+                    <label>
+                        <input type="radio" name="capacity" value="512gb" class="radio-btn">
+                        <span class="custom-radio"></span>
+                        512 GB
+                    </label>
+
+                </div>
+
+                <p class="cardtext">Выберите желаемый цвет:</p>
+
+                <div class="card-radio-btn">
+
+                    <label>
+                        <input type="radio" name="color" value="black-cosmos" class="radio-btn">
+                        <span class="custom-radio"></span>
+                        Черный космос
+                    </label>
+
+                    <label>
+                        <input type="radio" name="color" value="dark-violet" class="radio-btn">
+                        <span class="custom-radio"></span>
+                        Темное фиолетовый
+                    </label>
+
+                    <label>
+                        <input type="radio" name="color" value="silver" class="radio-btn">
+                        <span class="custom-radio"></span>
+                        Серебро
+                    </label>
+
+                    <label>
+                        <input type="radio" name="color" value="gold" class="radio-btn">
+                        <span class="custom-radio"></span>
+                        Золотой
+                    </label>
+                </div>
+                <p class="cardtext">Ваш комментарий:</p>
+                <div class="form">
+                    <input type="text">
+                    <input type="submit" value="Отправить">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="cardcontainer">
+        <div class="inner">
+            <img src="/SISPOP/correctimg/iPhone 14-pro.png" alt="Iphone 14 Pro" class="img-inside">
+            <div class="item">               
+                c
+                <input type="radio" id="radioButton1">
+                <label for="radioButton1">256GB</label>
+                <button class="btn-card" id="btn1">Выбрать</button>
+            </div>
+    </div> -->
+</body>
+</html>
